@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zachary Gazaille Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Zachary Gazaille</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Zachary Gazaille</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Zachary Gazaille Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Zachary Gazaille</h1>
+            <p class="section__text__p2">Software Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" 
+                onclick="window.open('./assets/Zachary Gazaille Resume.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" 
+                onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id ="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile"
+                class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/zacharygazaille/'">
+                <img src="./assets/github.png" alt="My GitHub profile"
+                class="icon" 
+                onclick="location.href='https://github.com/zacharygazaille/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="Zachary Gazaille Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Aspiring Intern <br>Software Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Bachelor of Computing <br>First Year Student</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>My name is Zachary Gazaille. I am a computing student at Queen's University in Kingston, Ontario
+                        hoping to specialize in Software Design. My hope is to be able to land an internship so that I can
+                        gain some real world experience and further my skills. Software Development has been a passion of 
+                        mine since the beginning of high school, and I am excited to venture into the tech industry. I am 
+                        confident that my academic background, my eagerness to learn and my enthusiasm for the field will make 
+                        me a valuable asset to any team.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Technical Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>C#</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Related Courses</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Introduction to Computer Science I</h3> 
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Introduction to Computer Science II</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Discrete Mathematics for Computing</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Differential and Integral Calculus</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Linear Algebra</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Design Thinking</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/zacharygazaille/Blackjack'">
+                            GitHub
+                        </button>
+                        <!-- PUT LIVE DEMO HERE -->
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/zacharygazaille/Blackjack'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <!-- <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/zacharygazaille/Blackjack'">
+                            GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/zacharygazaille/Blackjack'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div> -->
+                <!-- <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/zacharygazaille/Blackjack'">
+                            GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/zacharygazaille/Blackjack'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="contact-icon email-icon">
+                <p><a href="mailto:zacharygazaille@gmail.com">zacharygazaille@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/zacharygazaille/">LinkedIn</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Zachary Gazaille. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
