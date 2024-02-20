@@ -193,9 +193,9 @@
     }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-height: 400px) {
     #profile {
-        height: 300rem;
+        height: 23rem;
     }
 }
 
