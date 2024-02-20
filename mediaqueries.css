@@ -192,9 +192,3 @@
         height: 22rem;
     }
 }
-
-@media screen and (max-width: 850px) and (max-height: 400px) and (min-height: 300px) {
-    #profile {
-        height: 2rem;
-    }
-}
