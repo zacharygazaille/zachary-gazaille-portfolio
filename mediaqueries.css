@@ -1,3 +1,16 @@
+@media screen and (max-width: 1700px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+    }
+    .text-container {
+        font-size: 1.4rem;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
@@ -6,7 +19,71 @@
     .about-containers {
         flex-wrap: wrap;
     }
+    .text-container {
+        font-size: 1.3rem;
+    }
 }
+
+@media screen and (min-width: 1200px) and (min-height: 700px) {
+    .tech-skills {
+        gap: 12vh;
+    }
+    .related-courses {
+        gap: 9vh;
+    }
+}
+
+@media screen and (min-width: 1200px) and (min-height: 800px) {
+    .e-details-cont {
+        height: 60vh;
+    }
+    .experience-sub-title {
+        margin-bottom: 10vh;
+    }
+    .tech-skills {
+        gap: 10vh;
+    }
+    .related-courses {
+        gap: 10vh;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .tech-skills {
+        gap: 15vh;
+    }
+    .project-img {
+        border-radius: 10%;
+        /* CHANGE THESE SIZES WHEN YOU ADD PROJECTS (70% FOR 2 PROJECTS 90% FOR 3 PROJECTS) */
+        width: 30%;
+        height: 30%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-height: 600px) {
+    #desktop-nav {
+        height: 5rem;
+    }
+    #profile {
+        height: 22rem;
+    }
+    #about {
+        height: 40rem;
+    }
+    #experience {
+        height: 35rem;
+    }
+    #projects {
+        height: 46rem;
+    }
+    #contact {
+        height: 22rem;
+    }
+    footer nav {
+        height: 3rem;
+    }
+}
+
 
 @media screen and (max-width: 1200px) {
     #desktop-nav {
@@ -20,6 +97,7 @@
     }
     #profile, .section-container {
         display: block;
+        height: 34rem;
     }
     .arrow {
         display: none;
@@ -33,33 +111,48 @@
     .section__pic-container {
         width: 275px;
         height: 275px;
-        margin: 0 auto 2rem;
+        margin: 2rem auto 2rem;
     }
     .about-containers {
         margin-top: 0;
+    }
+    .text-container {
+        font-size: 1.1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #contact {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1000px) and (max-height: 400px) {
+    #profile {
+        height: 100vh;
     }
 }
 
 @media screen and (max-width: 600px) {
     #contact, footer {
-        height: 40vh;
+        height: fit-content;
+        margin-bottom: 1rem;
     }
     #profile {
-        height: 83vh;
-        margin-bottom: 0;
+        height: fit-content;
+        margin-bottom: 5rem;
     }
     article {
         font-size: 1rem;
     }
     footer nav {
         height: fit-content;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     .about-containers, .contact-info-upper-container, .btn-container {
         flex-wrap: wrap;
     }
     .contact-info-container {
-        margin: 0;
+        margin: 5px;
     }
     .contact-info-container p, .nav-links li a {
         font-size: 1rem;
@@ -87,6 +180,15 @@
         font-size: 2rem;
     }
     .text-container {
-        text-align: justify;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-height: 500px) and (max-width: 1200px) {
+    #about {
+        margin-top: 16rem;
+    }
+    #profile {
+        height: 22rem;
     }
 }
