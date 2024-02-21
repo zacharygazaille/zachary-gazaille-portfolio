@@ -184,11 +184,11 @@
     }
 }
 
-@media screen and (max-height: 500px) and (max-width: 1200px) {
+/* @media screen and (max-height: 500px) and (max-width: 1200px) {
     #about {
         margin-top: 3rem;
     }
     #profile {
         height: 22rem;
     }
-}
+} */
