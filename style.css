@@ -51,7 +51,8 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 6rem;
+    /* /////////////////////////////////////////////////////////////////// */
+    height: 10vh;
 }
 
 .nav-links {
@@ -178,7 +179,8 @@ a:hover {
 
 section {
     padding-top: 2rem;
-    height: 58rem;
+    /* /////////////////////////////////////////////////////////////// */
+    height: 100vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -193,8 +195,9 @@ section {
 #profile {
     display: flex;
     justify-content: center;
+    /* ////////////////////////////////////////////////////////////// */
     gap: 10rem;
-    height: 40rem;
+    height: 67vh;
 }
 
 .profile-pic-container {
@@ -298,7 +301,8 @@ section {
 
 #about {
     position: relative;
-    margin-top: 10rem;
+    /* //////////////////////////////////////////////////////// */
+    margin-top: 17vh;
 }
 
 .about-containers {
@@ -341,10 +345,10 @@ section {
     cursor: default;
 }
 
-.section-container {
+/* .section-container {
     gap: 4rem;
     height: 65%;
-}
+} */
 
 .about-pic-container {
     display: flex;
@@ -430,8 +434,8 @@ section {
 #contact {
     display: flex;
     flex-direction: column;
-    height: 41rem;
-    margin-top: 1rem;
+    /* ///////////////////////////////////////////////////// */
+    height: 70vh;
 }
 
 .contact-info-upper-container {
@@ -465,9 +469,10 @@ section {
 /* FOOTER SECTION */
 
 footer {
-    height: 9rem;
+    /* ////////////////////////////////////////////////////// */
+    height: 14vh;
     margin: 0 1rem;
-    margin-top: 7rem;
+    margin-top: 11vh;
 }
 
 footer p {
