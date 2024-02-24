@@ -195,7 +195,7 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    /* ////////////////////////////////////////////////////////////// */
+    /* ////// issue with about text leaking up to profile when screen height larger than 1350//////// */
     gap: 10rem;
     height: 67vh;
 }
@@ -344,11 +344,6 @@ section {
 .details-container .icon {
     cursor: default;
 }
-
-/* .section-container {
-    gap: 4rem;
-    height: 65%;
-} */
 
 .about-pic-container {
     display: flex;
