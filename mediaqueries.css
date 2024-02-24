@@ -178,7 +178,7 @@
         background-image: url('./assets/background.jpg');
         background-repeat: no-repeat;
         background-attachment: scroll;
-        margin: 0;
+        margin: auto;
     }
 }
 
