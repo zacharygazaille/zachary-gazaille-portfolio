@@ -174,10 +174,9 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background-size: cover;
-        background-image: url('../images/compressed/background-mobile.png');
-        background-repeat: no-repeat;
-        background-attachment: scroll;
+        background-size: 100%;
+        background-image: url('xx.jpg');
+        background-attachment: fixed;
     }
 }
 
