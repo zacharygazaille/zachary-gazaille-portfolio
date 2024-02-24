@@ -175,7 +175,7 @@
         height: 100%;
         width: 100%;
         background-size: 100%;
-        background-image: url('xx.jpg');
+        background-image: url('background.jpg');
         background-attachment: fixed;
     }
 }
