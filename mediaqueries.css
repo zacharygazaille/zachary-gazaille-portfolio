@@ -128,12 +128,13 @@
     #experience, .experience-details-container {
         margin-top: 2rem;
     }
-    #profile, .section-container {
+    #profile {
+        display: block;
+        margin-bottom: -2rem;
+    }
+    .section-container {
         display: block;
         height: 34rem;
-    }
-    #about {
-        margin-top: 15rem;
     }
     .arrow {
         display: none;
@@ -191,9 +192,6 @@
     }
     .profile-pic-container {
         margin-top: 1rem;
-    }
-    #about {
-        position: relative;
     }
 }
 
