@@ -129,8 +129,8 @@
         margin-top: 2rem;
     }
     #profile {
+        height: 38rem;
         display: block;
-        margin-bottom: -15%;
     }
     .section-container {
         display: block;
