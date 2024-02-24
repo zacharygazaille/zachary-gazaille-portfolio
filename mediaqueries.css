@@ -174,8 +174,6 @@
         left: 0;
         height: 100vh;
         width: 100vw;
-        padding: 0;
-        margin: 0;
         background-size: cover;
         background-image: url('./assets/background.jpg');
         background-repeat: no-repeat;
