@@ -1,22 +1,22 @@
-@media screen and (max-height: 950px) {
+@media screen and (max-height: 800px) {
     nav {
-        height: 6rem;
+        height: 2rem;
     }
     section {
-        height: 58rem;
+        height: 50rem;
     }
     #profile {
         height: 40rem;
     }
     #about {
-        margin-top: 10rem;
+        margin-top: 6rem;
     }
     #contact {
-        height: 41rem;
+        height: 35rem;
     }
     footer {
-        height: 9rem;
-        margin-top: 7rem;
+        height: 4rem;
+        margin-top: 9rem;
     }
 }
 
@@ -205,6 +205,9 @@
         background-image: url('./assets/background.jpg');
         background-repeat: no-repeat;
         background-attachment: scroll;
+    }
+    .profile-pic-container {
+        margin-top: 0rem;
     }
 }
 
