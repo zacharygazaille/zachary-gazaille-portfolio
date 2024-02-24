@@ -172,8 +172,8 @@
         position: fixed;
         top: 0;
         left: 0;
-        height: 110vh;
-        width: 110vw;
+        height: 200vh;
+        width: 200vw;
         background-size: cover;
         background-image: url('./assets/background.jpg');
         background-repeat: no-repeat;
