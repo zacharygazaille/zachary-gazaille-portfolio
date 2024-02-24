@@ -334,6 +334,9 @@
     .hamburger-icon.open span:last-child {
         transform: rotate(-45deg) translate(8px, -5px);
     }
+    footer p {
+        font-size: 0.6rem;
+    }
 }
 
 @media screen and (max-width: 486px) {
@@ -440,8 +443,5 @@
 @media screen and (max-width: 300px) {
     .title {
         font-size: 1.5rem;
-    }
-    footer p {
-        font-size: 0.6rem;
     }
 }
