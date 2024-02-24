@@ -1,4 +1,4 @@
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 800px) and (min-width: 1201px) {
     nav {
         height: 2rem;
     }
@@ -190,6 +190,9 @@
     }
     footer {
         margin-top: 0;
+    }
+    #about {
+        margin-top: 10rem;
     }
 }
 
