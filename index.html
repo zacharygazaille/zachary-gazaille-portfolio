@@ -6,8 +6,12 @@
     <title>Zachary Gazaille Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav id="home"></nav>
     <nav id="desktop-nav">
         <div class="logo">Zachary Gazaille</div>
         <div>
@@ -27,7 +31,7 @@
                 <span></span>
                 <span></span>
             </div>
-            <div class="menu-links">
+            <div class="menu-links glass">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
@@ -36,19 +40,19 @@
         </div>
     </nav>
     <section id="profile">
-        <div class="section__pic-container">
+        <div class="profile-pic-container round-pic">
             <img src="./assets/profile-pic.png" alt="Zachary Gazaille Profile Picture">
         </div>
-        <div class="section__text">
+        <div class="section__text glass">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Zachary Gazaille</h1>
             <p class="section__text__p2">Software Developer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" 
+                <button class="btn btn-color profile-btn" 
                 onclick="window.open('./assets/Zachary Gazaille Resume.pdf')">
                     Download CV
                 </button>
-                <button class="btn btn-color-1" 
+                <button class="btn btn-color profile-btn" 
                 onclick="location.href='./#contact'">
                     Contact Info
                 </button>
@@ -67,26 +71,23 @@
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./assets/about-pic.png" alt="Zachary Gazaille Profile Picture" class="about-pic">
-            </div>
             <div class="about-details-container">
                 <div class="about-containers">
-                    <div class="details-container">
+                    <div class="details-container glass">
                         <img src="./assets/experience.png" alt="experience icon" class="icon">
-                        <h3>Experience</h3>
-                        <p>Aspiring Intern <br>Software Development</p>
+                        <h3 class="about-categories">Experience</h3>
+                        <p>Software Development<br>Aspiring Intern</p>
                     </div>
-                    <div class="details-container">
+                    <div class="details-container glass">
                         <img src="./assets/education.png" alt="education icon" class="icon">
-                        <h3>Education</h3>
-                        <p>Bachelor of Computing <br>First Year Student</p>
+                        <h3 class="about-categories">Education</h3>
+                        <p>Bachelor of Computing<br>First Year Student</p>
                     </div>
                 </div>
-                <div class="text-container">
+                <div class="text-container glass">
                     <p>My name is Zachary Gazaille. I am a computing student at Queen's University in Kingston, Ontario
                         hoping to specialize in Software Design. My goal is to be able to land an internship so that I can
-                        gain some real world experience and further my skills. Software Development has been a passion of 
+                        gain some real world experience and enhance my skills. Software Development has been a passion of 
                         mine since the beginning of high school, and I am excited to venture into the tech industry. I am 
                         confident that my academic background, my eagerness to learn and my enthusiasm for the field will make 
                         me a valuable asset to any team.
@@ -101,86 +102,74 @@
         <h1 class="title">Experience</h1>
         <div class="experience-details-container">
             <div class="about-containers">
-                <div class="details-container e-details-cont">
+                <div class="details-container e-details-cont glass">
                     <h2 class="experience-sub-title">Technical Skills</h2>
-                    <div class="article-container tech-skills">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Java</h3>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Python</h3>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>HTML</h3>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>CSS</h3>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>JavaScript</h3>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>C#</h3>
-                            </div>
-                        </article>
+                    <div class="tech-skills">
+                        <div class="btn-container exp-btn-container">
+                            <button class="exp-btn btn-color" 
+                            onclick="location.href='https://www.java.com/en/download/help/whatis_java.html'">
+                                Java
+                            </button>
+                            <button class="exp-btn btn-color" 
+                            onclick="location.href='https://www.python.org/doc/essays/blurb/'">
+                                Python
+                            </button>
+                        </div>
+                        <div class="btn-container exp-btn-container">
+                            <button class="exp-btn btn-color" 
+                            onclick="location.href='https://html.com/'">
+                                HTML
+                            </button>
+                            <button class="exp-btn btn-color" 
+                            onclick="location.href='https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS'">
+                                CSS
+                            </button>
+                        </div>
+                        <div class="btn-container exp-btn-container">
+                            <button class="exp-btn btn-color" 
+                            onclick="location.href='https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript'">
+                                JavaScript
+                            </button>
+                            <button class="exp-btn btn-color" 
+                            onclick="location.href='https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/'">
+                                C#
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div class="details-container">
+                <div class="details-container glass">
                     <h2 class="experience-sub-title">Related Courses</h2>
-                    <div class="article-container related-courses">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Introduction to Computer Science I</h3> 
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Introduction to Computer Science II</h3>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Discrete Mathematics for Computing</h3>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Differential and Integral Calculus</h3>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Linear Algebra</h3>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                            <div>
-                                <h3>Design Thinking</h3>
-                            </div>
-                        </article>
+                    <div class="related-courses">
+                        <div class="btn-container exp-btn-container">
+                            <button class="exp-btn btn-color" 
+                            onclick="location.href='https://www.queensu.ca/artsci_online/courses/introduction-to-computing-science-i'">
+                                Introduction to Computer Science I
+                            </button>
+                            <button class="exp-btn btn-color" 
+                            onclick="location.href='https://www.queensu.ca/artsci_online/courses/introduction-to-computing-science-ii'">
+                                Introduction to Computer Science II
+                            </button>
+                        </div>
+                        <div class="btn-container exp-btn-container">
+                            <button class="exp-btn btn-color" 
+                            onclick="location.href='https://www.queensu.ca/artsci_online/courses/discrete-mathematics-for-computing-i'">
+                                Discrete Mathematics for Computing I
+                            </button>
+                            <button class="exp-btn btn-color" 
+                            onclick="location.href='https://www.queensu.ca/artsci_online/courses/differential-and-integral-calculus-0'">
+                                Differential and Integral Calculus
+                            </button>
+                        </div>
+                        <div class="btn-container exp-btn-container">
+                            <button class="exp-btn btn-color" 
+                            onclick="location.href='https://www.queensu.ca/academic-calendar/search/?P=MATH%20111'">
+                                Linear Algebra
+                            </button>
+                            <button class="exp-btn btn-color" 
+                            onclick="location.href='https://www.queensu.ca/artsci_online/courses/design-thinking'">
+                                Design Thinking
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -190,18 +179,31 @@
     <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container color-container">
+            <div class="about-containers project-container">
+                <div class="details-container glass">
                     <div class="article-container">
-                        <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-image">
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h2 class="experience-sub-title project-title">Blackjack</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/zacharygazaille/Blackjack'">
+                        <button class="btn btn-color project-btn" onclick="location.href='https://github.com/zacharygazaille/Blackjack'">
                             GitHub
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.loom.com/share/8e21f6ac307d47dd866f2647fc46023b?sid=c04f4389-f216-432f-9139-76fc2a64e669'">
+                        <button class="btn btn-color project-btn" onclick="location.href='https://www.loom.com/share/8e21f6ac307d47dd866f2647fc46023b?sid=c04f4389-f216-432f-9139-76fc2a64e669'">
+                            Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container glass">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="Project 2" class="project-image">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Portfolio</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color project-btn" onclick="location.href='https://github.com/zacharygazaille/zachary-gazaille-portfolio'">
+                            GitHub
+                        </button>
+                        <button class="btn btn-color project-btn" onclick="location.href='https://www.loom.com/share/c2b14b68853647e89e7059998be12c16?sid=093cdd7c-3fa3-4c7d-b86c-d4afb710b638'">
                             Demo
                         </button>
                     </div>
@@ -220,28 +222,13 @@
                         </button>
                     </div>
                 </div> -->
-                <!-- <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="./assets/project-1.png" alt="Project 1" class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/zacharygazaille/Blackjack'">
-                            GitHub
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/zacharygazaille/Blackjack'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div> -->
             </div>
-        </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
     </section>
     <section id="contact">
         <p class="section__text__p1">Get In Touch</p>
         <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
+        <div class="contact-info-upper-container glass">
             <div class="contact-info-container">
                 <img src="./assets/email.png" alt="email icon" class="contact-icon email-icon">
                 <p><a href="mailto:zacharygazaille@gmail.com">zacharygazaille@gmail.com</a>
@@ -258,14 +245,14 @@
         <nav>
             <div class="nav-links-container">
                 <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2024 Zachary Gazaille. All Rights Reserved.</p>
+        <p>Copyright &#169; 2024 Zachary Gazaille. All Rights Reserved. Background from <a href="https://www.vecteezy.com/vector-art/11764329-liquid-flow-purple-blue-3d-neon-lava-lamp-vector-geometric-background-for-banner-card-ui-design-or-wallpaper-gradient-mesh-bubble-in-the-shape-of-a-wave-drop-fluid-colorful-abstract-shapes">Vecteezy.com</a></p>
     </footer>
     <script src="script.js"></script>
 </body>
