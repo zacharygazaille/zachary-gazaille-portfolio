@@ -173,11 +173,12 @@
         top: 0;
         left: 0;
         height: 100vh;
-        width: 100%;
+        width: 100vw;
         background-size: cover;
         background-image: url('./assets/background.jpg');
         background-repeat: no-repeat;
         background-attachment: scroll;
+        margin: 0;
     }
 }
 
