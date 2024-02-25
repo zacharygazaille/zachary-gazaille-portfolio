@@ -188,6 +188,7 @@
         height: fit-content;
         margin-top: 0;
         margin-bottom: 0rem;
+        padding-bottom: 2rem;
     }
     footer p {
         font-size: 0.8rem;
