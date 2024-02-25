@@ -205,7 +205,7 @@ section {
     justify-content: center;
     /* ////// issue with about text leaking up to profile when screen height larger than 1350//////// */
     gap: 10rem;
-    height: 67vh;
+    height: 80vh;
 }
 
 .profile-pic-container {
@@ -310,7 +310,7 @@ section {
 #about {
     position: relative;
     /* //////////////////////////////////////////////////////// */
-    margin-top: 17vh;
+    margin-top: 10vh;
 }
 
 .about-containers {
@@ -447,7 +447,7 @@ section {
     border-radius: 1.5rem;
     background: (250, 250, 250);
     /* ////////////////////////////////////////////// */
-    margin: 13rem auto;
+    margin: 20vh auto;
     padding: 0.5rem;
 }
 .contact-info-container {
