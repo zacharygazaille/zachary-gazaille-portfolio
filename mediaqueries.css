@@ -199,6 +199,9 @@
     #about {
         margin-top: 10rem;
     }
+    .contact-margin {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1024px) {
