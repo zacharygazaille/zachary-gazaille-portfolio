@@ -1,4 +1,4 @@
-@media screen and (max-height: 800px) and (min-width: 1201px) {
+/* @media screen and (max-height: 800px) and (min-width: 1201px) {
     nav {
         height: 2rem;
     }
@@ -18,7 +18,7 @@
         height: 4rem;
         margin-top: 9rem;
     }
-}
+} */
 
 @media screen and (max-width: 1700px) {
     .about-containers {
@@ -110,7 +110,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) and (min-height: 700px) {
+/* @media screen and (min-width: 1200px) and (min-height: 700px) {
     .tech-skills {
         gap: 12vh;
     }
@@ -134,11 +134,10 @@
     }
     .project-img {
         border-radius: 10%;
-        /* CHANGE THESE SIZES WHEN YOU ADD PROJECTS (70% FOR 2 PROJECTS 90% FOR 3 PROJECTS) */
         width: 30%;
         height: 30%;
     }
-}
+} */
 
 @media screen and (max-width: 1200px) {
     #desktop-nav {
@@ -189,11 +188,13 @@
         margin: 3.5rem auto;
     }
     footer {
+        height: fit-content;
         margin-top: 0;
-        margin-bottom: 2rem;
+        margin-bottom: 0rem;
     }
     footer p {
         font-size: 0.8rem;
+        padding-bottom: 0rem;
     }
     nav {
         height: 5rem;
@@ -204,18 +205,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    #background_wrap {
-        z-index: -1;
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100vw;
-        background-size: cover;
-        background-image: url('./assets/background.jpg');
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-    }
     .profile-pic-container {
         margin-top: 0rem;
     }
@@ -334,15 +323,18 @@
         padding: 2rem;
     }
     section {
-        padding-top: 1vh;
+        padding-top: 1rem;
     }
     .exp-btn {
         font-size: 0.8rem;
         width: 70vw;
         border-radius: 0.7rem;
+        padding: 0.6;
+        margin-bottom: 0.6rem;
     }
     .exp-btn-container {
-        gap: 0.67rem;
+        gap: 0;
+        margin-bottom: 0rem;
     }
     .project-image {
         height: 15rem;
@@ -373,6 +365,7 @@
     }
     footer p {
         font-size: 0.6rem;
+        padding-bottom: 0rem;
     }
 }
 
