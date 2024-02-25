@@ -594,6 +594,9 @@
     #profile {
         height: 21rem;
     }
+    #about {
+        margin-top: 0rem;
+    }
     #contact {
         height: 15rem;
     }
