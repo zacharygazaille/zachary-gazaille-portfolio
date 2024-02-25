@@ -426,7 +426,7 @@
     }
 }
 
-@media screen and (max-height: 750px) and (min-width: 1201px) {
+@media screen and (max-height: 800px) and (min-width: 1201px) {
     .profile-pic-container {
         height: 280px;
         width: 280px;
