@@ -267,6 +267,7 @@ section {
 .icon {
     cursor: pointer;
     height: 2.75rem;
+    filter: drop-shadow(0.2vw 0.2vh 0.1vw rgba(0, 0, 0, 0.5));
 }
 
 /* BUTTONS */
@@ -465,6 +466,7 @@ section {
 }
 
 .email-icon {
+    filter: drop-shadow(0.2vw 0.2vh 0.1vw rgba(0, 0, 0, 0.5));
     height: 3.5rem;
 }
 

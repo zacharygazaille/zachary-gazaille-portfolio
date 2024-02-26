@@ -426,7 +426,7 @@
     }
 }
 
-@media screen and (max-height: 800px) and (min-width: 1201px) {
+/* @media screen and (max-height: 800px) and (min-width: 1201px) {
     .text-container {
         padding: 1.9rem;
         font-size: 1.2rem;
@@ -595,33 +595,36 @@
     .contact-info-container {
         margin: 0.5rem;
     }
-}
+} */
 
 @media screen and (max-height: 500px) and (min-width: 1201px) {
     nav {
-        height: 3rem;
+        height: 5rem;
     }
     section {
-        height: 28rem;
+        height: 51rem;
     }
     #profile {
-        height: 21rem;
+        height: 41rem;
     }
     #about {
         margin-top: 0rem;
     }
     #contact {
-        height: 15rem;
+        height: 24rem;
     }
     footer {
         height: 4rem;
-        margin-top: 3rem;
+        margin-top: 8rem;
         margin-bottom: 2rem;
+    }
+    .text-container {
+        font-size: 2rem;
     }
 }
 
 
-@media screen and (max-height: 50vw) and (min-width: 1201px) and (min-height: 801px) {
+@media screen and (max-height: 50vw) and (min-width: 1201px) and (min-height: 501px) {
     body{
         padding-left: 5vh;
         padding-right: 5vh;
@@ -832,8 +835,320 @@
     
     footer p {
         font-size: 1.5vh;
-        text-shadow: 0.4vh 0.4vh 0.8vh rgba(0, 0, 0, 0.5);    }
+        text-shadow: 0.4vh 0.4vh 0.8vh rgba(0, 0, 0, 0.5);   
+    }
 } 
+/* //////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-height: 50vw) and (min-width: 1201px) and (max-height: 100vw) {
+    body{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    
+    .glass {
+        border-radius: 1.5vw;
+        backdrop-filter: blur(1vw);
+        -webkit-backdrop-filter: blur(1vw);
+        border:0.1vw solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 0.5vw 2vw 0 rgba(0, 0, 0, 0.37);
+    }
+
+    .nav-links {
+        gap: 5vh;
+        font-size: 3vh;
+    }
+    
+    a {
+        color: white;
+        text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);        
+    }
+    
+    .logo {
+        font-size: 5vh;
+        text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);        
+    }
+
+    
+    
+    section {
+        padding-top: 1vh;
+    }
+
+    
+    
+    #profile {
+        gap: 8vw;
+    }
+    
+    .profile-pic-container {
+        height: 22vw;
+        width: 22vw;
+    }
+    
+    .round-pic {
+        border: 0.1vw solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 0.5vw 2vw 0 rgba(0, 0, 0, 0.37);
+        }
+    
+    .section__text {
+        padding: 2vw;
+    }
+
+    .section__text__p1 {
+        font-size: 2.6vw;
+        text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);        
+    }
+    
+    .section__text__p2 {
+        font-size: 2.8vw;
+        margin-bottom: 2vw;
+        text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);        
+    }
+    
+    .title {
+        font-size: 4.3vw;
+        text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);        
+    }
+    
+    #socials-container {
+        margin-top: 3vh;
+        gap: 3vw;
+    }
+    
+    
+    
+    .icon {
+        height: 4vw;
+    }
+    
+    
+    
+    .btn-container {
+        gap: 4vw;
+    }
+    
+    .btn {
+        font-size: 1.5vw;
+        padding: 1vw;
+        width: 13vw;
+        border-radius: 1vw;
+        text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);        
+    }
+    
+    .btn-color {
+        border: 0.1vw solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 0.5vw 2vw 0 rgba(0, 0, 0, 0.37);
+    }
+    
+    .btn-color:hover {
+        border: rgb(180, 180, 180) 0.1rem solid;
+    }
+    
+
+
+    .about-containers {
+        gap: 1.5vw;
+        margin-bottom: 1.5vw;
+        margin-top: 9vh;
+    }
+    
+    .about-categories {
+        font-size: 2vw;
+        text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);        
+    }
+    
+    .arrow {
+        right: -6.5vw;
+        bottom: 4vh;
+    }
+    
+    .details-container {
+        padding: 1.5vw;
+        font-size: 1.3vw;
+        text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);        
+    }
+    
+    .text-container {
+        padding: 2vw;
+        font-size: 1.2vw;
+        text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);        
+    }
+    
+    
+    
+    .experience-sub-title {
+        font-size: 2.5vw;
+        margin-bottom: 2vw;
+        margin-top: 1vw;
+    }
+    
+    .exp-btn-container {
+        padding: 0.6vw;
+        height: 6vw;
+    }
+    
+    .exp-btn {
+        font-size: 0.8vw;
+        padding: 1vw;
+        width: 11vw;
+        border-radius: 1vw;
+        text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
+    }
+    
+    .tech-skills {
+        padding: 0.5vw;
+    }
+    
+    .related-courses {
+        padding: 0.5vw;
+    }
+    
+    .project-image {
+        height: 12vw;
+        width: 12vw;
+        border: 0.1vw solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 0.5vw 2vw 0 rgba(0, 0, 0, 0.37);    
+    }
+    
+    .project-title {
+        margin: 2vh;
+    }
+    
+    .project-btn {
+        width: 12vw;
+    }
+    .contact-margin {
+        height: 2vw;
+    }
+    
+    .contact-info-upper-container {
+        border-radius: 1vw;
+        padding: 1.5vw;
+    }
+    .contact-info-container {
+        gap: 0.5vw;
+        margin: 1vw;
+    }
+
+    .contact-info-container p {
+        font-size: 2vw;
+        padding: 0.5vw;
+    }
+
+    .email-icon {
+        height: 5vw;
+    }
+    
+   
+    
+    footer {
+        margin: 0 0.5vh;
+    }
+    
+    footer p {
+        font-size: 1.5vh;
+        text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);   
+    }
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-height: 60vw) and (min-width: 1201px) and (max-height: 100vw) {
+    .text-container {
+        padding: 2.4vw;
+        font-size: 1.65vw;
+    }
+    .exp-btn-container {
+        height: 8vw;
+    }
+    .exp-btn {
+        font-size: 1vw;
+    }
+    .project-image {
+        height: 20vw;
+        width: 20vw;
+    }
+}
+
+@media screen and (min-height: 70vw) and (min-width: 1201px) and (max-height: 100vw) {
+    .text-container {
+        font-size: 1.9vw;
+        padding: 2.6vw
+    }
+    .exp-btn-container {
+        height: 10vw;
+    }
+    .exp-btn {
+        font-size: 1.2vw;
+    }
+    .project-image {
+        height: 27vw;
+        width: 27vw;
+    }
+    .logo {
+        font-size: 3.3vw;
+    }
+    .nav-links {
+        font-size: 2.3vw;
+    }
+}
+
+@media screen and (min-height: 80vw) and (min-width: 1201px) and (max-height: 100vw) {
+    .logo {
+        font-size: 3vw;
+    }
+    .nav-links {
+        font-size: 2vw;
+    }
+    .profile-pic-container {
+        height: 30vw;
+        width: 30vw;
+    }
+    .text-container {
+        font-size: 2.1vw;
+        padding: 2.9vw
+    }
+    .exp-btn-container {
+        height: 14vw;
+        gap: 2vw;
+    }
+    .exp-btn {
+        font-size: 1.5vw;
+        width: 14vw;
+    }
+    .project-image {
+        height: 30vw;
+        width: 30vw;
+    }
+    .project-btn {
+        height: 7vw;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+    }
+    .project-title {
+        margin-top: 2vw;
+    }
+}
+
+@media screen and (min-height: 90vw) and (min-width: 1201px) and (max-height: 100vw) {
+    .about-categories{
+        font-size: 3vw;
+    }
+    .details-container {
+        font-size: 2vw;
+    }
+    .exp-btn-container {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    .project-btn {
+        height: 8vw;
+        margin-bottom: 3vw;
+        margin-top: 3vw;
+    }
+    .project-title {
+        margin-top: 3vw;
+        font-size: 4vw
+    }
+}
  
 @media screen and (min-height: 100vw) and (min-width: 1201px) {
     #desktop-nav {
