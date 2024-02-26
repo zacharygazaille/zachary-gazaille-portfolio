@@ -3,7 +3,7 @@
         flex-wrap: wrap;
     }
     .text-container {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     .exp-btn {
         font-size: 0.8rem;
@@ -435,6 +435,9 @@
         height: 16rem;
         width: 16rem;
     }
+    .title {
+        font-size: 3.6rem;
+    }
 }
 
 @media screen and (max-height: 750px) and (min-width: 1201px) {
@@ -562,7 +565,6 @@
         margin-top: 1.7rem;
     }
     .exp-btn {
-        font-size: 0.8em;
         height: 3.8rem;
         border-radius: 0.7rem;
     }
@@ -617,3 +619,512 @@
         margin-bottom: 2rem;
     }
 }
+
+
+@media screen and (max-height: 50vw) and (min-width: 1201px) and (min-height: 801px) {
+    body{
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+    
+    .glass {
+        border-radius: 2.5vh;
+        backdrop-filter: blur(1.5vh);
+        -webkit-backdrop-filter: blur(1.5vh);
+        border:0.2vh solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 0.7vh 3vh 0 rgba(0, 0, 0, 0.37);
+    }
+
+    .nav-links {
+        gap: 5vh;
+        font-size: 3vh;
+    }
+    
+    a {
+        color: white;
+        text-shadow: 0.4vh 0.4vh 0.8vh rgba(0, 0, 0, 0.5);
+        }
+    
+    .logo {
+        font-size: 5vh;
+        text-shadow: 0.4vh 0.4vh 0.8vh rgba(0, 0, 0, 0.5);
+        }
+
+    
+    
+    section {
+        padding-top: 1vh;
+    }
+
+    
+    
+    #profile {
+        gap: 15vh;
+    }
+    
+    .profile-pic-container {
+        height: 45vh;
+        width: 45vh;
+    }
+    
+    .round-pic {
+        border: 0.2vh solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 0.7vh 3vh 0 rgba(0, 0, 0, 0.37);    
+    }
+    
+    .section__text {
+        padding: 5vh;
+    }
+
+    .section__text__p1 {
+        font-size: 5vh;
+        text-shadow: 0.4vh 0.4vh 0.8vh rgba(0, 0, 0, 0.5);
+        }
+    
+    .section__text__p2 {
+        font-size: 6vh;
+        margin-bottom: 2vh;
+        text-shadow: 0.4vh 0.4vh 0.8vh rgba(0, 0, 0, 0.5);
+        }
+    
+    .title {
+        font-size: 8vh;
+        text-shadow: 0.4vh 0.4vh 0.8vh rgba(0, 0, 0, 0.5);
+        }
+    
+    #socials-container {
+        margin-top: 3vh;
+        gap: 3vh;
+    }
+    
+    
+    
+    .icon {
+        height: 7vh;
+    }
+    
+    
+    
+    .btn-container {
+        gap: 5vh;
+    }
+    
+    .btn {
+        font-size: 3vh;
+        padding: 2vh;
+        width: 25vh;
+        border-radius: 2vh;
+        text-shadow: 0.4vh 0.4vh 0.8vh rgba(0, 0, 0, 0.5);
+        }
+    
+    .btn-color {
+        border: 0.2vh solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 0.7vh 3vh 0 rgba(0, 0, 0, 0.37);
+        }
+    
+    .btn-color:hover {
+        border: rgb(180, 180, 180) 0.1rem solid;
+    }
+    
+
+
+    .about-containers {
+        gap: 4vh;
+        margin-bottom: 4vh;
+        margin-top: 9vh;
+    }
+    
+    .about-categories {
+        font-size: 4vh;
+        text-shadow: 0.4vh 0.4vh 0.8vh rgba(0, 0, 0, 0.5);
+        }
+    
+    .arrow {
+        right: -8.5vh;
+        bottom: 4vh;
+    }
+    
+    .details-container {
+        padding: 3vh;
+        font-size: 2.2vh;
+        text-shadow: 0.4vh 0.4vh 0.8vh rgba(0, 0, 0, 0.5);
+        }
+    
+    .text-container {
+        padding: 5vh;
+        font-size: 2.4vh;
+        text-shadow: 0.4vh 0.4vh 0.8vh rgba(0, 0, 0, 0.5);
+        }
+    
+    
+    
+    .experience-sub-title {
+        font-size: 4vh;
+        margin-bottom: 3vh;
+        margin-top: 2vh;
+    }
+    
+    .exp-btn-container {
+        padding: 1vh;
+        height: 13vh;
+    }
+    
+    .exp-btn {
+        font-size: 2vh;
+        padding: 2vh;
+        width: 30vh;
+        border-radius: 2vh;
+        text-shadow: 0.4vh 0.4vh 0.8vh rgba(0, 0, 0, 0.5);
+        }
+    
+    .tech-skills {
+        padding: 0.5vh;
+    }
+    
+    .related-courses {
+        padding: 0.5vh;
+    }
+    
+    .project-image {
+        height: 32vh;
+        width: 32vh;
+        border: 0.2vh solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 0.7vh 3vh 0 rgba(0, 0, 0, 0.37);    
+    }
+    
+    .project-title {
+        margin: 2vh;
+    }
+    
+    .project-btn {
+        width: 20vh;
+    }
+    
+    
+
+    .contact-margin {
+        height: 2vh;
+    }
+    
+    .contact-info-upper-container {
+        border-radius: 2vh;
+        padding: 1.5vh;
+    }
+    .contact-info-container {
+        gap: 1vh;
+        margin: 2vh;
+    }
+
+    .contact-info-container p {
+        font-size: 4vh;
+        padding: 1vh;
+    }
+
+    .email-icon {
+        height: 8.7vh;
+    }
+    
+   
+    
+    footer {
+        margin: 0 0.5vh;
+    }
+    
+    footer p {
+        font-size: 1.5vh;
+        text-shadow: 0.4vh 0.4vh 0.8vh rgba(0, 0, 0, 0.5);    }
+} 
+ 
+@media screen and (min-height: 100vw) and (min-width: 1201px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    #experience, .experience-details-container {
+        margin-top: 4vw;
+    }
+    #profile {
+        height: fit-content;
+        margin-bottom: -10vw;
+        display: block;
+    }
+    .section-container {
+        display: block;
+    }
+    .arrow {
+        display: none;
+    }
+    #experience {
+        display: block;
+    }
+    section, .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .profile-pic-container {
+        width: 40vw;
+        height: 40vw;
+        margin: 4vw auto 4vw;
+    }
+    .hamburger-icon {
+        height: 3vw;
+        width: 4vw;
+    }
+    .hamburger-icon span {
+        height: 0.3vw;
+    }
+    .hamburger-icon.open span:first-child {
+        transform: rotate(45deg) translate(1vw, 1vw);
+    }    
+    .hamburger-icon.open span:last-child {
+        transform: rotate(-45deg) translate(1vw, -1vw);
+    }
+    .menu-links.open {
+        max-height: 30vw;
+    }
+    .menu-links a {
+        padding: 1vw;
+        font-size: 3vw;
+    }
+    #contact {
+        height: fit-content;
+    }
+    .contact-info-upper-container {
+        margin: 5vw auto;
+    }
+    footer {
+        height: fit-content;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 1vw;
+    }
+    nav {
+        height: 5vw;
+    }
+    #about {
+        margin-top: 15vw;
+    }
+    .contact-margin {
+        display: none;
+    }
+
+    body{
+        padding: 5vw;
+    }
+
+    .nav-links {
+        gap: 5vw;
+        font-size: 3vw;
+    }
+    
+    a {
+        color: white;
+        text-shadow: 0.4vw 0.4vw 0.8vw rgba(0, 0, 0, 0.5);
+    }
+    
+    .logo {
+        font-size: 4vw;
+        text-shadow: 0.4vw 0.4vw 0.8vw rgba(0, 0, 0, 0.5);
+    }
+
+    
+    
+    section {
+        padding-top: 1vw;
+    }
+
+    
+    
+    #profile {
+        gap: 150vw;
+    }
+    
+    .profile-pic-container {
+        height: 35vw;
+        width: 35vw;
+    }
+    
+    .round-pic {
+        border: 0.2vw solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 0.7vw 3vw 0 rgba(0, 0, 0, 0.37);
+    }
+    
+    .section__text {
+        padding: 5vw;
+    }
+
+    .section__text__p1 {
+        font-size: 5vw;
+        text-shadow: 0.4vw 0.4vw 0.8vw rgba(0, 0, 0, 0.5);
+    }
+    
+    .section__text__p2 {
+        font-size: 6vw;
+        margin-bottom: 2vw;
+        text-shadow: 0.4vw 0.4vw 0.8vw rgba(0, 0, 0, 0.5);
+    }
+    
+    .title {
+        font-size: 8vw;
+        text-shadow: 0.4vw 0.4vw 0.8vw rgba(0, 0, 0, 0.5);
+    }
+    
+    #socials-container {
+        margin-top: 3vw;
+        gap: 3vw;
+    }
+    
+    
+    
+    .icon {
+        height: 5vw;
+    }
+    
+    
+    
+    .btn-container {
+        gap: 5vw;
+    }
+    
+    .btn {
+        font-size: 3vw;
+        padding: 2vw;
+        width: 25vw;
+        border-radius: 2vw;
+        text-shadow: 0.4vw 0.4vw 0.8vw rgba(0, 0, 0, 0.5);
+    }
+    
+    .btn-color {
+        border:0.2vw solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 0.7vw 3vw 0 rgba(0, 0, 0, 0.37);
+    }
+    
+    .btn-color:hover {
+        border: rgb(180, 180, 180) 0.2vw solid;
+    }
+    
+
+
+    .about-containers {
+        gap: 4vw;
+        margin-bottom: 4vw;
+        margin-top: 9vw;
+    }
+    
+    .about-categories {
+        font-size: 4vw;
+        text-shadow: 0.4vw 0.4vw 0.8vw rgba(0, 0, 0, 0.5);
+    }
+    
+    .arrow {
+        right: -8.5vw;
+        bottom: 4vw;
+    }
+    
+    .details-container {
+        padding: 3vw;
+        font-size: 2.2vw;
+        text-shadow: 0.4vw 0.4vw 0.8vw rgba(0, 0, 0, 0.5);
+    }
+    
+    .text-container {
+        padding: 5vw;
+        font-size: 2.4vw;
+        text-shadow: 0.4vw 0.4vw 0.8vw rgba(0, 0, 0, 0.5);
+    }
+    
+    
+    
+    .experience-sub-title {
+        font-size: 4vw;
+        margin-bottom: 3vw;
+        margin-top: 2vw;
+    }
+    
+    .exp-btn-container {
+        padding: 1vw;
+        height: 13vw;
+    }
+    
+    .exp-btn {
+        font-size: 2vw;
+        padding: 2vw;
+        width: 30vw;
+        border-radius: 2vw;
+        text-shadow: 0.4vw 0.4vw 0.8vw rgba(0, 0, 0, 0.5);
+    }
+    
+    .tech-skills {
+        padding: 0.5vw;
+    }
+    
+    .related-courses {
+        padding: 0.5vw;
+    }
+    
+    
+    
+    .project-image {
+        height: 32vw;
+        width: 32vw;
+        border:0.2vw solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 0.7vw 3vw 0 rgba(0, 0, 0, 0.37);
+    }
+    
+    .project-title {
+        margin: 2vw;
+    }
+    
+    .project-btn {
+        width: 20vw;
+    }
+    
+    
+
+    .contact-margin {
+        height: 2vw;
+    }
+    
+    .contact-info-upper-container {
+        border-radius: 2vw;
+        padding: 1.5vw;
+    }
+    .contact-info-container {
+        gap: 1vw;
+        margin: 2vw;
+    }
+
+    .contact-info-container p {
+        font-size: 3vw;
+        padding: 1vw;
+    }
+
+    .email-icon {
+        height: 6.35vw;
+    }
+    
+    footer {
+        margin: 0 0.5vw;
+    }
+    
+    footer p {
+        margin-top: 2vw;
+        font-size: 1.5vw;
+        text-shadow: 0.4vw 0.4vw 0.8vw rgba(0, 0, 0, 0.5);
+    }
+    .about-containers {
+        flex-wrap: wrap;
+    }
+    .glass{
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(1.5vw);
+        -webkit-backdrop-filter: blur(1.5vw);
+        border-radius: 2.5vw;
+        border:0.2vw solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 0.7vw 3vw 0 rgba(0, 0, 0, 0.37);
+    }
+} 

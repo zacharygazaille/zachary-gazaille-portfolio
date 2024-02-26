@@ -354,13 +354,6 @@ section {
     cursor: default;
 }
 
-.about-pic-container {
-    display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
-
 .text-container {
     text-align: left;
     padding: 3rem;
