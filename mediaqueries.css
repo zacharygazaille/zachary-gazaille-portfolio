@@ -515,7 +515,7 @@
     }
 }
 
-@media screen and (max-height: 550px) and (min-width: 1201px) {
+@media screen and (max-height: 620px) and (min-width: 1201px) {
     .profile-pic-container {
         height: 220px;
         width: 220px;
@@ -595,7 +595,7 @@
     }
 }
 
-@media screen and (max-height: 430px) and (min-width: 1201px) {
+@media screen and (max-height: 500px) and (min-width: 1201px) {
     nav {
         height: 3rem;
     }
@@ -614,5 +614,6 @@
     footer {
         height: 4rem;
         margin-top: 3rem;
+        margin-bottom: 2rem;
     }
 }
