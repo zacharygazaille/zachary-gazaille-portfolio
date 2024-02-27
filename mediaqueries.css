@@ -924,7 +924,7 @@
     
     
     .btn-container {
-        gap: 4vw;
+        gap: 3vw;
     }
     
     .btn {
@@ -941,7 +941,7 @@
     }
     
     .btn-color:hover {
-        border: rgb(180, 180, 180) 0.1rem solid;
+        border: rgb(180, 180, 180) 0.07rem solid;
     }
     
 
