@@ -985,12 +985,13 @@
     .exp-btn-container {
         padding: 0.6vw;
         height: 6.5vw;
+        gap: 1vw;
     }
     
     .exp-btn {
         font-size: 0.8vw;
         padding: 1vw;
-        width: 10vw;
+        width: 12vw;
         border-radius: 1vw;
         text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
     }
