@@ -1004,8 +1004,8 @@
     }
     
     .project-image {
-        height: 12vw;
-        width: 12vw;
+        height: 17vw;
+        width: 17vw;
         border: 0.1vw solid rgba(255, 255, 255, 0.18);
         box-shadow: 0 0.5vw 2vw 0 rgba(0, 0, 0, 0.37);    
     }
