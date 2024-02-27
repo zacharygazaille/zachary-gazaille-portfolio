@@ -810,7 +810,7 @@
     }
     
     .contact-info-upper-container {
-        border-radius: 2vh;
+        border-radius: 3vh;
         padding: 1.5vh;
     }
     .contact-info-container {
@@ -819,7 +819,7 @@
     }
 
     .contact-info-container p {
-        font-size: 4vh;
+        font-size: 3vh;
         padding: 1vh;
     }
 
@@ -918,7 +918,7 @@
     
     
     .icon {
-        height: 4vw;
+        height: 3vw;
     }
     
     
@@ -928,7 +928,7 @@
     }
     
     .btn {
-        font-size: 1.5vw;
+        font-size: 1vw;
         padding: 1vw;
         width: 13vw;
         border-radius: 1vw;
@@ -1022,21 +1022,21 @@
     }
     
     .contact-info-upper-container {
-        border-radius: 1vw;
+        border-radius: 2vw;
         padding: 1.5vw;
     }
     .contact-info-container {
         gap: 0.5vw;
-        margin: 1vw;
+        margin: 0.6vw;
     }
 
     .contact-info-container p {
-        font-size: 2vw;
-        padding: 0.5vw;
+        font-size: 1.6vw;
+        padding: 0.1vw;
     }
 
     .email-icon {
-        height: 5vw;
+        height: 3.6vw;
     }
     
    
@@ -1401,7 +1401,7 @@
     
 
     .contact-margin {
-        height: 2vw;
+        height: 1.6vw;
     }
     
     .contact-info-upper-container {
@@ -1414,8 +1414,8 @@
     }
 
     .contact-info-container p {
-        font-size: 3vw;
-        padding: 1vw;
+        font-size: 2.4vw;
+        padding: 0.5vw;
     }
 
     .email-icon {
