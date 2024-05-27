@@ -810,7 +810,7 @@
     }
     
     .contact-info-upper-container {
-        border-radius: 2vh;
+        border-radius: 3vh;
         padding: 1.5vh;
     }
     .contact-info-container {
@@ -819,7 +819,7 @@
     }
 
     .contact-info-container p {
-        font-size: 4vh;
+        font-size: 3vh;
         padding: 1vh;
     }
 
@@ -918,17 +918,17 @@
     
     
     .icon {
-        height: 4vw;
+        height: 3vw;
     }
     
     
     
     .btn-container {
-        gap: 4vw;
+        gap: 3vw;
     }
     
     .btn {
-        font-size: 1.5vw;
+        font-size: 1vw;
         padding: 1vw;
         width: 13vw;
         border-radius: 1vw;
@@ -941,7 +941,7 @@
     }
     
     .btn-color:hover {
-        border: rgb(180, 180, 180) 0.1rem solid;
+        border: rgb(180, 180, 180) 0.07rem solid;
     }
     
 
@@ -985,12 +985,13 @@
     .exp-btn-container {
         padding: 0.6vw;
         height: 6.5vw;
+        gap: 1vw;
     }
     
     .exp-btn {
         font-size: 0.8vw;
         padding: 1vw;
-        width: 10vw;
+        width: 12vw;
         border-radius: 1vw;
         text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0, 0.5);
     }
@@ -1004,8 +1005,8 @@
     }
     
     .project-image {
-        height: 12vw;
-        width: 12vw;
+        height: 17vw;
+        width: 17vw;
         border: 0.1vw solid rgba(255, 255, 255, 0.18);
         box-shadow: 0 0.5vw 2vw 0 rgba(0, 0, 0, 0.37);    
     }
@@ -1022,21 +1023,21 @@
     }
     
     .contact-info-upper-container {
-        border-radius: 1vw;
+        border-radius: 2vw;
         padding: 1.5vw;
     }
     .contact-info-container {
         gap: 0.5vw;
-        margin: 1vw;
+        margin: 0.6vw;
     }
 
     .contact-info-container p {
-        font-size: 2vw;
-        padding: 0.5vw;
+        font-size: 1.6vw;
+        padding: 0.1vw;
     }
 
     .email-icon {
-        height: 5vw;
+        height: 3.6vw;
     }
     
    
@@ -1401,7 +1402,7 @@
     
 
     .contact-margin {
-        height: 2vw;
+        height: 1.6vw;
     }
     
     .contact-info-upper-container {
@@ -1414,8 +1415,8 @@
     }
 
     .contact-info-container p {
-        font-size: 3vw;
-        padding: 1vw;
+        font-size: 2.4vw;
+        padding: 0.5vw;
     }
 
     .email-icon {
